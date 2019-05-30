@@ -16,6 +16,8 @@ class App extends Component {
     render() {
         return (
             <div className="app-container">
+                <div style={{margin: '15px', color: 'black'}}>The code available at: <a href="https://github.com/Shim2k/simple-chart-page/tree/master/src">Github</a></div>
+
                 <Chart source={this.APIConnector}/>
             </div>
         )
